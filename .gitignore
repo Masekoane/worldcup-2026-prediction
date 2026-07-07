@@ -194,6 +194,13 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+# Project artifacts
+models/
+outputs/
+data/processed/*.csv
+data/api_cache/
+data/raw/football_data_wc_matches.csv
+
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
